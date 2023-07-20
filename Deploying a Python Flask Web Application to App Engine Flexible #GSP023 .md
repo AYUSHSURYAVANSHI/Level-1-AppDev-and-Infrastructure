@@ -45,7 +45,6 @@ manual_scaling:
   instances: 1
 
 EOF
-echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 gcloud config set app/cloud_build_timeout 1000
 gcloud app deploy
 ```
