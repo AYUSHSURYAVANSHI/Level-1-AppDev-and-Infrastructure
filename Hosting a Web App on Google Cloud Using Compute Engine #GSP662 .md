@@ -12,7 +12,7 @@ cd ~/monolith-to-microservices
 chmod +x setup.sh
 ./setup.sh
 nvm install --lts
-curl -O -L https://github.com/CodingWithHardik/Level-1-AppDev-and-Infrastructure/blob/master/sh%20files/startup-script.sh
+curl -O -L https://github.com/Qwicklab/Level-1-AppDev-and-Infrastructure/blob/main/sh%20files/startup-script.sh
 gsutil cp ~/monolith-to-microservices/startup-script.sh gs://fancy-store-$DEVSHELL_PROJECT_ID
 cd ~
 rm -rf monolith-to-microservices/*/node_modules
