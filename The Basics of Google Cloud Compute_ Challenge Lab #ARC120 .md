@@ -36,7 +36,6 @@ gcloud compute ssh my-instance \
 ```
 ```cmd
 sudo apt-get update
-echo -e "\033[31mhttps://www.youtube.com/@CodingWithHardik\033[0m"
 sudo apt-get install -y nginx
 ps auwx | grep nginx
 ```
